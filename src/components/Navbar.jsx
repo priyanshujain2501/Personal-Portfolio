@@ -46,13 +46,16 @@ function Navbar() {
             {nav &&
 
                 <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500'>
+                    
+                    <Link onClick={() => setNav(false)} to='Home' className='px-4 cursor-pointer capitalize py-6 text-4xl'>Home</Link>
 
-                    <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>Home</li>
-                    <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>Education</li>
-                    <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>Skills</li>
-                    <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>Projects</li>
-                    <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>Contact</li>
+                    <Link onClick={() => setNav(false)} to='Education' className='px-4 cursor-pointer capitalize py-6 text-4xl'>Education</Link>
 
+                    <Link onClick={() => setNav(false)} to='Skills' className='px-4 cursor-pointer capitalize py-6 text-4xl'>Skills</Link>
+
+                    <Link onClick={() => setNav(false)} to='Projects' className='px-4 cursor-pointer capitalize py-6 text-4xl'>Projects</Link>
+                    <Link onClick={() => setNav(false)} to='Contact' className='px-4 cursor-pointer capitalize py-6 text-4xl'>Contact</Link>
+                    
                 </ul>
             }
 
