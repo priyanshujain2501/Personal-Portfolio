@@ -25,19 +25,19 @@ function Skills(){
               
               {/* 1st */}
               <div className='w-7/12 shadow-md hover:scale-105 duration-200 py-2 rounded-xl shadow-blue-600 sm:w-60 mx-14 sm:mx-auto'> 
-                  <img src={cpp} alt="" className='w-48 h-48 mx-auto rounded-xl'/>
+                  <img src={cpp} alt="" className='w-48 h-48 mx-auto sm:rounded-xl'/>
                   <p className='mt-4'>CPP</p>
               </div>
 
               {/* 2nd */}
               <div className='w-7/12 shadow-md hover:scale-105 duration-200 py-2 rounded-lg shadow-orange-700 sm:w-60 mx-14 sm:mx-auto'>
-                <img src={html} alt="" className='w-48 h-48 mx-auto rounded-xl' />
+                <img src={html} alt="" className='w-48 h-48 mx-auto sm:rounded-xl' />
                   <p className='mt-4'>HTML</p>
               </div>
 
               {/* 3rd */}
               <div className='w-7/12 shadow-md hover:scale-105 duration-200 py-2 rounded-lg shadow-blue-600 sm:w-60 mx-14 sm:mx-auto'>
-                <img src={css} alt="" className='w-48 h-48 mx-auto rounded-xl' />
+                <img src={css} alt="" className='w-48 h-48 mx-auto sm:rounded-xl' />
                   <p className='mt-4'>CSS</p>
               </div>
 
@@ -49,13 +49,13 @@ function Skills(){
 
               {/* 5th */}
               <div className='w-7/12 shadow-md hover:scale-105 duration-200 py-2 rounded-lg shadow-yellow-500 sm:w-60 mx-14 sm:mx-auto'>
-                <img src={js} alt="" className='w-48 h-48 mx-auto rounded-xl' />
+                <img src={js} alt="" className='w-48 h-48 mx-auto sm:rounded-xl' />
                   <p className='mt-4'>JavaScript</p>
               </div>
 
               {/* 6th */}
               <div className='w-7/12 shadow-md hover:scale-105 duration-200 py-2 rounded-lg shadow-sky-400 sm:w-60 mx-14 sm:mx-auto'>
-                <img src={react} alt="" className='w-48 h-48 mx-auto rounded-xl' />
+                <img src={react} alt="" className='w-48 h-48 mx-auto sm:rounded-xl' />
                   <p className='mt-4'>ReactJs</p>
               </div>
 

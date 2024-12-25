@@ -27,8 +27,8 @@ const Projects = () => {
                     <img src={appointment} alt="" className='h-52 w-full  rounded-md duration-200 hover:scale-105' />
 
                     <div className='flex items-center justify-center text-sm sm:text-lg'>
-                        <a href="https://doctor-appointment-booking-system-xi.vercel.app" target='_blank' className='w-1/2 px-1 py-3 sm:px-6 sm:m-4 duration-200 hover:scale-105'>Demo</a>
-                        <a href="https://github.com/priyanshujain2501/Doctor-Appointment-Booking-System" target='_blank' className='w-1/2 px-1 py-3 sm:px-6 sm:m-4 duration-200 hover:scale-105'>Code</a>
+                        <a href="https://doctor-appointment-booking-system-xi.vercel.app" target='_blank' className='flex justify-center w-1/2 px-2 py-3 mx-auto sm:px-6 m-4 duration-200 hover:scale-105'>Demo</a>
+                        <a href="https://github.com/priyanshujain2501/Doctor-Appointment-Booking-System" target='_blank' className='flex justify-center w-1/2 px-2 py-3 mx-auto sm:px-6 m-4 duration-200 hover:scale-105'>Code</a>
                     </div>
 
                 </div>
@@ -39,8 +39,8 @@ const Projects = () => {
                     <img src={portFolio} alt="" className='h-52 w-full rounded-md duration-200 hover:scale-105'/>
 
                     <div className='flex items-center justify-center text-sm sm:text-lg'>
-                        <a href="https://todo-using-redux-chi.vercel.app/" target='_blank' className='w-1/2 px-1 py-3 sm:px-6 sm:m-4 duration-200 hover:scale-105'>Demo</a>
-                        <a href="https://github.com/priyanshujain2501/Personal-Portfolio" target='_blank' className='w-1/2 px-1 py-3 sm:px-6 sm:m-4 duration-200 hover:scale-105'>Code</a>
+                        <a href="https://todo-using-redux-chi.vercel.app/" target='_blank' className='flex justify-center w-1/2 px-2 py-3 mx-auto sm:px-6 m-4 duration-200 hover:scale-105'>Demo</a>
+                        <a href="https://github.com/priyanshujain2501/Personal-Portfolio" target='_blank' className='flex justify-center w-1/2 px-2 py-3 mx-auto sm:px-6 m-4 duration-200 hover:scale-105'>Code</a>
                     </div>
                     
                 </div>
@@ -51,8 +51,8 @@ const Projects = () => {
                     <img src={todo} alt="" className='rounded-md h-52 w-full duration-200 hover:scale-105'/>
 
                     <div className='flex items-center justify-center text-sm sm:text-lg'>
-                        <a href="https://todo-using-redux-chi.vercel.app/" target='_blank' className='w-1/2 px-1 py-3 sm:px-6 sm:m-4 duration-200 hover:scale-105'>Demo</a>
-                        <a href="https://github.com/priyanshujain2501/todo" target='_blank' className='w-1/2 px-1 py-3 sm:px-6 sm:m-4 duration-200 hover:scale-105'>Code</a>
+                        <a href="https://todo-using-redux-chi.vercel.app/" target='_blank' className='flex justify-center w-1/2 px-2 py-3 mx-auto sm:px-6 m-4 duration-200 hover:scale-105'>Demo</a>
+                        <a href="https://github.com/priyanshujain2501/todo" target='_blank' className='flex justify-center w-1/2 px-2 py-3 mx-auto sm:px-6 m-4 duration-200 hover:scale-105'>Code</a>
                     </div>
 
                 </div> 
